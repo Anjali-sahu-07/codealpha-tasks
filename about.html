@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: black;
+            color: #fff;
+        }
+        .container{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .container .left-side{
+            width: 50%;
+        }
+
+        .container .left-side img{
+            height: 320px;
+            width: 300px;
+            border-radius: 50%;
+            display: flex;
+            position: relative;
+            margin-left: 200px;
+            margin-top: 150px;
+            transition: transform 0.2s linear;
+        }
+
+        .container .left-side:hover img{
+            transform: scale(1.1);
+        }
+
+        .container .right-side{
+            width: 50%;
+            margin-top: 150px;
+        }
+        h1{
+            text-decoration: underline;
+            font-size: 40px;
+            color: #7ac6d2;
+        }
+        p{
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left-side">
+            <img src="pics/my_pic.jpg" alt="">
+        </div>
+        <div class="right-side">
+            <h1>About Me</h1><br><br>
+            <p> <h2>Web Developer </h2> </p><br>
+            <p>
+                I am a skilled Web Developer. My passion lies in creating captivating website designs <br>
+                and implementing them through frontend development. I take pride in staying up-to-date <br>
+                with current design trends and leveraging my creativity to produce visually appealing <br>
+                and user friendly websites. Throughout my career, I have developed a deep understanding <br>
+                of user experience (UX) and user interface (UI) By putting myself in the shoes of the <br>
+                end-users, I strive to create intuitive and seamless browsing experiences. I believebr <br>
+                that a well-designe  website should not only look visually appealing but also provide <br>
+                a smooth and enjoyable interaction for visitors. When starting a new project, I thoroughlybr <br>
+                research and analyze the target audience and the client's specific requirements. This <br>
+                enables me to tailor my designs to meet their expectations and dever a unique online <br>
+                presence that aligns with their brand identity..</p>
+        </div>
+    </div>
+    
+</body>
+</html>

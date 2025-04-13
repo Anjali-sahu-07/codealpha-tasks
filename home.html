@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e9259fe89a.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background: #034C53;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navbar .nav h2{
+    color: #fff;
+    margin-left: 50px;
+    font-size: 28px;
+}
+.navbar .nav1 a{
+    color: #fff;
+    padding: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar .nav1 a:hover{
+    text-decoration: underline;
+}
+
+.navbar .nav1{
+    margin-left: 600px;
+}
+
+.container{
+    background-color: hsl(183, 43%, 30%);
+    width: 100%;
+    height: 550px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .left-side{
+    width: 50%;
+    height: 465px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.container .right-side{
+    height: 465px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .right-side img{
+    height: 280px;
+    width: 330px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.container .left-side h3{
+    font-size: 50px;
+}
+
+.container .left-side h3 b{
+    color: #ef9651;
+}
+
+ .foot{
+    width: 100%;
+    height: 100px;
+    background-color: #034C53;
+    color: #fff;
+}
+
+.foot h2{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.foot ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.foot ul li{
+    padding-left: 120px;
+}
+
+.foot ul li:hover{
+    text-decoration: underline;
+} 
+
+    </style>
+</head>
+<body>
+    <header>
+    <div class="navbar">
+        <div class="nav">
+            <h2>ANJALI SAHU</h2>
+        </div>
+        <div class="nav1">
+            <a href="home.html">Home</a>
+            <a href="skill.html">Skills</a>
+            <a href="project.html">Projects</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="left-side">
+            <h3>Hello, My Name is<br>
+            <b>Anjali Sahu </b><br>
+            Web Developer
+            </h3>
+            </div>
+
+            <div class="right-side">
+                <img src="pics/pic.jpg" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot">
+                <h2>Anjali Sahu </h2>
+                <ul>
+
+                <li><i class="fa-solid fa-envelope"></i>
+                sahu24201@gmail.com</li>
+                <li> <i class="fa-brands fa-linkedin"></i>
+                linkedin.com/in/anjali-sahu-2b7309273</li>
+                <li><i class="fa-brands fa-github"></i></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

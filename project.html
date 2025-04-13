@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: #588477;
+        }
+
+        h1{
+            text-align: center;
+            height: 80px;
+            padding-top: 50px;
+            font-size: 40px;
+            text-decoration: underline;
+
+        }
+
+        .container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .container .boxes{
+            height: 400px;
+            width: 400px;
+            background-color: #e4efe7;
+            margin: 40px 40px 80px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container .boxes .box{
+            height: 320px;
+            width: 400px;
+            display: flex;
+            position: absolute;
+        }
+
+        .box img{
+            height: 100%;
+            width: 100%;
+            transition: transform 0.2s linear;
+        }
+
+        .box:hover img{
+            transform: scale(1.1);
+        }
+
+
+        .container .boxes p{
+            width: 400px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-top: 330px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>MY PROJECTS</h1>
+
+    <div class="container">
+
+       <div class="boxes">
+
+            <div class="box">
+                <img src="pics/calculator.jpg" alt="">
+            </div>
+            <p>This is My Calculator with using <br> HTML, CSS, Java Script </p>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <img src="pics/image_gallery.jpg" alt="">
+            </div>
+            <p>This is My Responsive Image Gallery Project <br> with using HTML, CSS, JS</p>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <img src="pics/amazone_clone.jpg" alt="">
+            </div>
+            <p>This is My Responssive Amazone Clone <br> Website with using HTML, CSS, JS</p>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <img src="pics/food_website.jpg" alt="">
+            </div>
+            <p>This is My Mini Project (Food Website) <br> with using HTML, CSS, JS</p>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <img src="pics/sps.jpg" alt="">
+            </div>
+            <p>This is Stone Paper Scissor Game Build <br> with using HTML, CSS, JS </p>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <img src="pics/ttt.jpg" alt="">
+            </div>
+            <p>This is Tic-Tac-Toe Game Build up <br> with using HTML, CSS, JS</p>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <img src="pics/dr_web.jpg" alt="">
+            </div>
+            <p>This is my Doctor Booking appointment <br> Schedule with using HTML, CSS, JS, <br>
+                 SQL, PHP</p>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <img src="pics/to_do_list.jpg" alt="">
+            </div>
+            <p>This is My Mini Project (To-Do-List)  <br> Build up with HTML, CSS, JS</p>
+        </div>
+
+    </div>
+</body>
+</html>
